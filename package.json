@@ -1,0 +1,49 @@
+{
+  "name": "illumrerum",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "test": "echo `test`"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanaBeier/illumrerum.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "dolores",
+    "omnis",
+    "navigation"
+  ],
+  "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "@rainbow-me/rainbowkit": "^0.8.1",
+    "ethers": "^5.7.0",
+    "next": "^13.0.0",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-iconly": "^2.2.5",
+    "wagmi": "~0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "typescript": "^4.9.4"
+  },
+  "author": "MavisHagenes",
+  "bugs": {
+    "url": "https://github.com/JanaBeier/illumrerum.git/issues"
+  },
+  "homepage": "https://github.com/JanaBeier/illumrerum.git"
+}
